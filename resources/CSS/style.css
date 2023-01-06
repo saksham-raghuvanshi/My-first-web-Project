@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #ffffff;
+    color:#555;
+    font-family: Lato,sans-serif;
+    font-weight: 300;
+    font-size:20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+.row{
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./img/hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1{
+    margin-top:0;
+    margin-bottom: 20px;
+   
+    color: #ffffff;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    word-spacing: 3px;
+
+}
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top:50%;
+    left:50%;
+    transform: translate(-60%,-50%);
+}
+
+.btn:link,
+.btn:visited{
+    display:inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 300;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s,color 0.2s ;
+}
+
+.btn-1:link,.btn-1:visited{
+    background-color: #e67e22;
+    color: #ffffff;
+    border: 1px,solid,#e67e22;
+    margin-right:25px ;
+}
+
+.btn-2:link,.btn-2:visited{
+    color: #e67e22;
+    border: 1px solid #e67e22;
+}
+
+
+.btn:hover,
+.btn:active{
+    background-color: #cf6d17;
+
+}
+
+.btn-2:hover, .btn-2:active{
+    background-color: #cf6d17;
+    color: #ffffff;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+    float:left;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+
+.main-nav li a:link,.main-nav li a:visited{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    padding: 8px 0;
+    transition: border-bottom 0.2s;
+}
+
+
+.main-nav li a:hover,.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+}
+
+
