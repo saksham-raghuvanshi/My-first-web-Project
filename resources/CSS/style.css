@@ -15,6 +15,9 @@ html{
     text-rendering: optimizeLegibility;
 }
 
+body{
+    overflow-x: hidden;
+}
 
 .row{
     max-width: 1140px;
@@ -120,9 +123,13 @@ h1{
 }
 
 
-section{
-    padding: 80px 0;
+
+.section-features{
+    margin: 80px auto;
+    
 }
+
+
 
 h2{
     font-weight: 500;
@@ -152,7 +159,9 @@ h2:after{
 }
 
 .box{
-    padding: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
 }
 
 h3{
@@ -176,63 +185,17 @@ h3{
 }
 
 
-/*.meals-showcase{
-    list-style: none;
-    width: 100%;
+
+
+
+.section-meals{
+ 
+ margin-top: 20%;
 }
 
-.meals-showcase li{
-    display:block;
-    float:left;
-    width: 25%;
-    
-}
-
-.meal-photo{
-    width: 100%;
-    margin: 0;
-   overflow: hidden;
-
-}
-
-
-
-
-.meal-photo img{
-    width: 100%;
-    height: auto;
-    transform: scale(1.15);
-}
-
-
-.meal-photo img:hover{
-    position: relative;
-    width: 100;
-    opacity: 0.7;
-    transform:scale(1.0);
-}
-
-
-}
-
-
-*/
-
-h3{
-    text-align:center;
-}
-
-.h3meals:after{
-    background-color: #cf6d17;
-    display: block;
-    content: " ";
-    width: 100px;
-    height: 2px;
-    margin: 100px;
-    margin: 0 auto;
-    margin-top:10px;
-    margin-bottom: 40px;
-
+.div-section{
+    margin-top: 20px;
+   
 }
 
 .meals-showcase{
@@ -242,7 +205,7 @@ h3{
 
 .meals-showcase li{
     display:block;
-    float:left;
+    float:right;
     width: 25%;
     
 }
@@ -285,3 +248,78 @@ h3{
     font-size: 16px;
     padding: 16px 32px;
   }
+
+  .contact-us{
+    margin-top: 25%;
+    
+  }
+.contact-form{
+    width: 60%;
+    margin:0 auto;
+ 
+    
+}
+
+ input[type= text],input[type= email],select,textarea{
+    width:200%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+ }
+ 
+footer{
+    background-color: #333;
+    font-size: 80%;
+    padding: 50px;
+    margin-top: 35%;
+    margin-bottom: auto;
+}
+
+.footer-nav{
+    list-style: none;
+    float:left;
+    
+    
+    
+}
+
+.footer-nav li a:link,.footer-nav li a:visited{
+    text-decoration: none;
+    color: #ffffff;
+   
+}
+.social-icon li a:link,.social-icon li a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+.social-icon{
+    list-style: none;
+    
+    
+}
+
+.social-icon li{
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-icon li a:hover,.social-icon li a:active,
+.footer-nav li a:hover,.footer-nav li a:active  {
+    
+    color: #cf6d17;
+}
+
+
+
+.nav-text{
+    float:right;
+    color:#ffffff;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 10%;
+    color: #ffffff;
+    
+}
