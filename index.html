@@ -8,7 +8,7 @@
 
         
         
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <link rel="stylesheet" href="./vendors/css/normalize.css">
         <link rel="stylesheet" href="./vendors/css/grid.css">
         <link rel="stylesheet" href="./resources/CSS/style.css">
@@ -21,24 +21,37 @@
         <nav>
             <div class="row">
             <img class="logo" src="./resources/img/logo (3).png" alt="Food project">
+            <ul class="main-side">
+              <li><span style="font-size:50px;cursor:pointer; color: #e67e22;" onclick="openNav()">&#9776;</span></li>
+            </ul>
+            
             <ul class="main-nav">
                 <li><a href="#">Food Delivery</a></li>
                 <li><a href="#">How its works</a></li>
                 <li><a href="#">Order</a></li>
                 <li><a href="#">Contact us</a></li>
                 <li><a href="#">Sign up</a></li>
+                </li>
             </ul>
+        </div>
+
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">Food Delivery</a>
+          <a href="#">How its works</a>
+          <a href="#">Order</a>
+          <a href="#">Sign up</a>
         </div>
         
         </nav>
         <div class="back-text-box">
         <h1>Goodbye junk food<br>Hello super healthy food</h1>
-        <a href="#" class="btn btn-1">I'm Hungry</a>
-        <a href="#" class="btn btn-2">Show me more</a>
+        <a href="#meals" class="btn btn-1">I'm Hungry</a>
+        <a href="#feature" class="btn btn-2">Show me more</a>
         </div>
        </header>
 
-       <section class="section-features">
+       <section class="section-features" id="feature">
         <div class="row">
             <h2>Get Food Fast - Not fast food</h2>
             <p class="long-para">
@@ -77,7 +90,7 @@
        
      
 
-       <section class="section-meals">
+       <section class="section-meals" id="meals">
         <div class="div-section">
           <h2>Meals Section</h2>
           <div>
@@ -222,6 +235,7 @@
               <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
               <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
               <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+              
             </ul>
           </div>
         </div>
@@ -239,8 +253,8 @@
       </div>
 
        </footer>
-    
-
+       
+       <script  src="./resources/JS/myscript.js"></script>
        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>

@@ -46,13 +46,24 @@ section{
     margin-top: 40%;
 }
 
+@media only screen and (max-width: 827px){
+    .main-nav{
+        display: none;
+    
+    }
+
+    .main-side{
+        display: inline;
+        margin-right: 40px;
+    }
+}
 
 
 /*small phones to small tabelets from 481 to 767px*/
 @media only screen and (max-width: 785px){
-.main-nav{
-    display: none;
-}
+
+
+
 
 .back-text-box{
         
