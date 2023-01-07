@@ -3,11 +3,16 @@
     <head>
         <title>My Food Project</title>
         
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
         
         
         <link rel="stylesheet" href="./vendors/css/normalize.css">
         <link rel="stylesheet" href="./vendors/css/grid.css">
         <link rel="stylesheet" href="./resources/CSS/style.css">
+        <link rel="stylesheet" href="./resources/CSS/queries.css">
         
     
     </head>
@@ -27,7 +32,7 @@
         
         </nav>
         <div class="back-text-box">
-        <h1>Goodbye junk food<br>Hello super healty food</h1>
+        <h1>Goodbye junk food<br>Hello super healthy food</h1>
         <a href="#" class="btn btn-1">I'm Hungry</a>
         <a href="#" class="btn btn-2">Show me more</a>
         </div>
@@ -76,43 +81,57 @@
         <div class="div-section">
           <h2>Meals Section</h2>
           <div>
-        <ul class="meals-showcase">
-            <li>
+            <div class="row">
+              
+        
+          <div class="col span_1_of_4 ">
+            
                   <div class="container">
                     <img src="./resources/img/vegan salad.jpg" alt="vegan-salad" class="meal-image" style="width:100%">
                     <div class="middle">
                       <div class="meal-text">Vegan salad</div>
                     </div>
                   </div>
-            </li>
-
-            <li>
+            
+          </div>
+          
+          <div class="col span_1_of_4 ">
+            
+              
                 <div class="container">
                   <img src="./resources/img/1.jpg" alt="Korean bibimbap" class="meal-image" style="width:100%">
                   <div class="middle">
                     <div class="meal-text">Korean bibimbap</div>
                   </div>
                 </div>
-          </li>
-          <li>
+         
+        </div>
+
+          <div class="col span_1_of_4 ">
+         
             <div class="container">
               <img src="./resources/img/2.jpg" alt="italian pizza" class="meal-image" style="width:100%">
               <div class="middle">
                 <div class="meal-text">Italian pizza</div>
               </div>
             </div>
-      </li>
-      <li>
+      
+    </div>
+
+      <div class="col span_1_of_4 ">
+     
         <div class="container">
           <img src="./resources/img/3.jpg" alt="Chicken breast steak " class="meal-image" style="width:100%">
           <div class="middle">
             <div class="meal-text">Chicken breast steak </div>
           </div>
         </div>
-  </li>
+  
+</div>
             
 
-        </ul>
+        
+      </div>
         </div>
         
 </div>
@@ -166,8 +185,8 @@
                 <label>Message:</label>
 
               </div>
-              <div class="col span_1_of_3">
-                <textarea  name="message" cols="20" rows="10" required></textarea>
+             <div class="col span_1_of_3">
+                <textarea  name="message" cols="2" rows="2" required></textarea>
               </div>
             </div>
             <div class="row">
@@ -209,10 +228,13 @@
 
         <div class="col span_1_of_3">
           <p class="nav-text">GOODBYE JUNK FOOD HELLO SUPER HEALTY FOOD</p>
+        <hr>
+
         </div>
       </div>
 
       <div class="copyright" class="row">
+       
         <p>Copyright &copy; 2023 by Sakfood.All right reserved</p>
       </div>
 

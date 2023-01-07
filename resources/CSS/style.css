@@ -6,18 +6,20 @@
     box-sizing: border-box;
 }
 
-html{
+html,body{
     background-color: #ffffff;
     color:#555;
     font-family: Lato,sans-serif;
     font-weight: 300;
     font-size:20px;
     text-rendering: optimizeLegibility;
-}
-
-body{
     overflow-x: hidden;
 }
+
+hr{
+    display: none;
+}
+
 
 .row{
     max-width: 1140px;
@@ -174,6 +176,7 @@ h3{
 .box p{
     font-size: 90%;
     line-height: 145%;
+    
 }
 
 
@@ -205,7 +208,7 @@ h3{
 
 .meals-showcase li{
     display:block;
-    float:right;
+    float:left;
     width: 25%;
     
 }
@@ -317,9 +320,17 @@ footer{
     color:#ffffff;
 }
 
+
+
 .copyright{
     text-align: center;
     margin-top: 10%;
     color: #ffffff;
     
 }
+
+
+
+
+
+

@@ -1,0 +1,220 @@
+
+
+
+
+
+
+
+/*big tablet to big 1200px*/
+@media only screen and (max-width: 1400px) {
+	.back-text-box{
+        
+        width: 100%;
+       padding: 0 20%;
+       
+    }
+	
+}
+
+
+
+
+
+/*small tablet to big tabelets from 768 to 1023px*/
+@media only screen and (max-width: 1072px){
+    .back-text-box{
+        
+        width: 100%;
+       padding: 0 20%;
+    }
+
+ 
+body{
+    font-size: 18px;
+}
+
+section{
+    padding: 10px;
+}
+.box p{
+    margin-bottom: 10%;
+    padding: 0;
+    
+}
+
+.div-section{
+    margin-top: 40%;
+}
+
+
+
+/*small phones to small tabelets from 481 to 767px*/
+@media only screen and (max-width: 785px){
+.main-nav{
+    display: none;
+}
+
+.back-text-box{
+        
+    width: 100%;
+   padding: 0 20%;
+   margin-top: 10%;
+}
+
+
+.contact-form{
+    padding: 0% 0%;
+    margin-left: 10;
+    margin-bottom: 0%;
+     
+ }
+
+ .contact-us{
+    margin:0;
+ }
+
+}
+
+
+@media only screen and (max-width: 667px){
+    
+    
+    
+    .contact-form{
+        padding: 0% 0%;
+        margin-left: 10;
+        margin-bottom: 20%;
+         
+     }
+
+
+     footer{
+        margin-top: 50%;
+     }
+
+     .copyright{
+        text-align: center;
+        margin-top: 20%;
+
+     }
+}
+
+
+
+/*small phones from 0 to 480px*/
+@media only screen and (max-width: 581px){
+
+
+    h2{
+        font-size:x-large;
+       
+    }
+
+    body{
+        15px
+    }
+    .back-text-box{
+        
+        width: 100%;
+        text-align: center;
+        padding: 0 10px;
+        margin: 10% 10%;
+        font-size: 15px;
+    
+
+    }
+    .btn-1,.btn-2{
+        margin-bottom: 10px;
+    }
+
+    .contact-us{
+        margin-bottom: 40%;
+        
+      }
+    .contact-form{
+        width: 70%;
+       padding: 0 20%;
+       margin: 0% 10%;
+       font-size: 13px;
+        
+    }
+
+    footer{
+        margin-top: 80%;
+        
+     }
+     
+
+     .copyright{
+        text-align: center;
+        margin-top: 20%;
+
+     }
+
+
+
+}
+
+
+@media only screen and (max-width: 480px){
+    .footer-nav{
+       
+        padding: 0 30%;
+        
+        margin-bottom: 10%;
+    }
+
+    .social-icon{
+        padding: 0 25%;
+        
+        margin-bottom: 10%;
+    }
+
+    .nav-text{
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+
+    .copyright{
+        margin-bottom: 0;
+    }
+
+    hr{
+        display:block;
+        margin-top: 20%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 420px){
+
+
+    .back-text-box{
+        
+        
+        padding: 0 1%;
+        margin: 10% 10%;
+        font-size: 13px;
+    
+
+    }
+    
+}
+
+
+@media only screen and (max-width: 360px){
+
+
+    .back-text-box{
+        
+        
+
+        font-size: 11px;
+    
+
+    }
+    
+}
